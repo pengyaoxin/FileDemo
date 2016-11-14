@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:orientation="vertical"
+    tools:context="cn.edu.gdmec.s07150738.filedemo.MainActivity">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PhoneDirectory"
+        android:onClick="phoneDirectory"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ExternalStoragePublicDirectory"
+        android:id="@+id/externalStoragePublicDirectory"
+        android:onClick="externalStoragePublicDirectory"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ExternalStorageDirectory"
+        android:id="@+id/externalStorageDirectory"
+        android:onClick="externalStorageDirectory"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DataStorage"
+        android:onClick="dataStorage"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DownloadCacheDirectory"
+        android:onClick="downloadCacheDirectory"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RootDirectory"
+        android:onClick="rootDirectory"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/result" />
+</LinearLayout>

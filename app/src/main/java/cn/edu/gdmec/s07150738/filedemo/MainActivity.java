@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         tv1 = (TextView) findViewById(R.id.result);
-        //获取各种存储位置
+        //获取各种存储位置[[
         fphonedirectory = this.getFilesDir();
         fExternalStoragePublicDirectory = Environment.getExternalStoragePublicDirectory((Environment.DIRECTORY_MUSIC));
        fExternalStorageDirectory = Environment.getExternalStorageDirectory();
